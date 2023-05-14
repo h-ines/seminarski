@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/seminarski/static/css/main.a334696f.css",
+    "main.js": "/seminarski/static/js/main.d6dcb983.js",
+    "static/js/787.5ed2b2cc.chunk.js": "/seminarski/static/js/787.5ed2b2cc.chunk.js",
+    "index.html": "/seminarski/index.html",
+    "main.a334696f.css.map": "/seminarski/static/css/main.a334696f.css.map",
+    "main.d6dcb983.js.map": "/seminarski/static/js/main.d6dcb983.js.map",
+    "787.5ed2b2cc.chunk.js.map": "/seminarski/static/js/787.5ed2b2cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a334696f.css",
+    "static/js/main.d6dcb983.js"
+  ]
+}
