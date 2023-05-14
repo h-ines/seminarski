@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.c-header__item {
+  display: flex;
+  flex: 1;
+  flex-direction: row nowrap;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+.c-header__button__item {
+  float: left;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-header__greetings__item {
+  float: left;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #1a2c29;
+}
+
+.c-header__button {
+  width: 70%;
+  height: 40%;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: white;
+  background-color: #4f847c;
+  border: none;
+}
+
+.c-header__button:hover {
+  background-color: #a569b0;
+  color: white;
+}
+
+@media screen and (max-width: 1160px) {
+  .c-header__greetings__item {
+    display: none;
+  }
+
+  .c-header__button__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .c-header__greetings__item {
+    display: none;
+  }
+
+  .c-header__button__item {
+    width: 100%;
+  }
+}
